@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_048_Senkaya" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="qGu-TT-nKL" userLabel="VerticalLayout">
+                                <rect key="frame" x="50" y="194" width="314" height="568"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="EhW-0g-MVG" userLabel="Line0">
+                                        <rect key="frame" x="0.0" y="0.0" width="314" height="138.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hfG-qh-zT0" userLabel="Case00">
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="138.5"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" name="AccentColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wyp-AE-7P3" userLabel="Case01">
+                                                <rect key="frame" x="80" y="0.0" width="74.5" height="138.5"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" name="AccentColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uzy-zv-QHq" userLabel="Case02">
+                                                <rect key="frame" x="159.5" y="0.0" width="75" height="138.5"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" name="AccentColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EeB-uN-lhv" userLabel="Case03">
+                                                <rect key="frame" x="239.5" y="0.0" width="74.5" height="138.5"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" name="AccentColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="kub-1g-hvm" userLabel="Line1">
+                                        <rect key="frame" x="0.0" y="143.5" width="314" height="138"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3mz-em-ovt" userLabel="Case10">
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="138"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" name="AccentColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZ2-x9-tOq" userLabel="Case11">
+                                                <rect key="frame" x="80" y="0.0" width="74.5" height="138"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" name="AccentColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2E-1Y-QXJ" userLabel="Case12">
+                                                <rect key="frame" x="159.5" y="0.0" width="75" height="138"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" name="AccentColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iwZ-jt-q5e" userLabel="Case13">
+                                                <rect key="frame" x="239.5" y="0.0" width="74.5" height="138"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" name="AccentColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="MRh-87-jfj" userLabel="Line2">
+                                        <rect key="frame" x="0.0" y="286.5" width="314" height="138.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iPw-PS-5qv" userLabel="Case20">
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="138.5"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" name="AccentColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Odb-XB-RXr" userLabel="Case21">
+                                                <rect key="frame" x="80" y="0.0" width="74.5" height="138.5"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" name="AccentColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="czy-xu-2zv" userLabel="Case22">
+                                                <rect key="frame" x="159.5" y="0.0" width="75" height="138.5"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" name="AccentColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rwU-Fl-4xS" userLabel="Case23">
+                                                <rect key="frame" x="239.5" y="0.0" width="74.5" height="138.5"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" name="AccentColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="1Fl-aU-Pns" userLabel="Line3">
+                                        <rect key="frame" x="0.0" y="430" width="314" height="138"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o2t-go-vq8" userLabel="Case30">
+                                                <rect key="frame" x="0.0" y="0.0" width="74" height="138"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" name="AccentColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G4n-cu-XGF" userLabel="Case31">
+                                                <rect key="frame" x="80" y="0.0" width="74" height="138"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" name="AccentColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZQG-OX-Wtr" userLabel="Case32">
+                                                <rect key="frame" x="160" y="0.0" width="74" height="138"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" name="AccentColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SFm-Qx-hYi" userLabel="Case33">
+                                                <rect key="frame" x="240" y="0.0" width="74" height="138"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" name="AccentColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="eo9-PR-iaM" appends="YES" id="5Tk-zo-F1J"/>
+                                    <outletCollection property="gestureRecognizers" destination="Sh7-jt-vig" appends="YES" id="moW-go-wl2"/>
+                                    <outletCollection property="gestureRecognizers" destination="PwG-Ds-e2i" appends="YES" id="C4y-hN-VhJ"/>
+                                    <outletCollection property="gestureRecognizers" destination="oEy-oj-4bR" appends="YES" id="ssm-b1-Z8w"/>
+                                </connections>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZL-TJ-JSx" userLabel="Score">
+                                <rect key="frame" x="100" y="94" width="214" height="50"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="wec-Ub-zlK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jPh-90-wZa" userLabel="UndoButton">
+                                <rect key="frame" x="157" y="777" width="100" height="70"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="v56-V5-xWX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
+                                <state key="normal" title="Undo">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="UndoClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3AU-fq-Nr1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="eZL-TJ-JSx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="2wR-Mo-bQa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eZL-TJ-JSx" secondAttribute="trailing" constant="100" id="887-6p-XbV"/>
+                            <constraint firstItem="jPh-90-wZa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ibf-Mc-jQK"/>
+                            <constraint firstItem="jPh-90-wZa" firstAttribute="top" secondItem="qGu-TT-nKL" secondAttribute="bottom" constant="15" id="J8g-xQ-hQV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qGu-TT-nKL" secondAttribute="trailing" constant="50" id="KJ6-Tu-PeR"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="jPh-90-wZa" secondAttribute="bottom" constant="15" id="QHa-Nf-jCU"/>
+                            <constraint firstItem="qGu-TT-nKL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="THn-Nc-fdl"/>
+                            <constraint firstItem="eZL-TJ-JSx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="j1W-Iq-UKC"/>
+                            <constraint firstItem="eZL-TJ-JSx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="myp-Se-aaY"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="qGu-TT-nKL" secondAttribute="bottom" constant="100" id="qW2-2a-akW"/>
+                            <constraint firstItem="qGu-TT-nKL" firstAttribute="top" secondItem="eZL-TJ-JSx" secondAttribute="bottom" constant="50" id="rCc-2k-gLI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ScoreLabel" destination="eZL-TJ-JSx" id="s21-pK-BET"/>
+                        <outlet property="UndoButton" destination="jPh-90-wZa" id="3u8-x1-g0T"/>
+                        <outlet property="VertialLayout" destination="qGu-TT-nKL" id="drG-j3-du5"/>
+                        <outletCollection property="Line0" destination="hfG-qh-zT0" collectionClass="NSMutableArray" id="a9P-W9-Jcc"/>
+                        <outletCollection property="Line0" destination="Wyp-AE-7P3" collectionClass="NSMutableArray" id="J06-14-leV"/>
+                        <outletCollection property="Line0" destination="Uzy-zv-QHq" collectionClass="NSMutableArray" id="7Qd-XD-xfL"/>
+                        <outletCollection property="Line0" destination="EeB-uN-lhv" collectionClass="NSMutableArray" id="xCp-9n-Q9r"/>
+                        <outletCollection property="Line1" destination="3mz-em-ovt" collectionClass="NSMutableArray" id="Caf-nc-NRG"/>
+                        <outletCollection property="Line1" destination="aZ2-x9-tOq" collectionClass="NSMutableArray" id="5vD-Jt-lzm"/>
+                        <outletCollection property="Line1" destination="a2E-1Y-QXJ" collectionClass="NSMutableArray" id="gfB-45-gWV"/>
+                        <outletCollection property="Line1" destination="iwZ-jt-q5e" collectionClass="NSMutableArray" id="C8l-SP-XXK"/>
+                        <outletCollection property="Line2" destination="iPw-PS-5qv" collectionClass="NSMutableArray" id="Cak-7P-c3r"/>
+                        <outletCollection property="Line2" destination="Odb-XB-RXr" collectionClass="NSMutableArray" id="oja-J7-RRL"/>
+                        <outletCollection property="Line2" destination="czy-xu-2zv" collectionClass="NSMutableArray" id="ykk-Il-u33"/>
+                        <outletCollection property="Line2" destination="rwU-Fl-4xS" collectionClass="NSMutableArray" id="H6F-3R-3yN"/>
+                        <outletCollection property="Line3" destination="o2t-go-vq8" collectionClass="NSMutableArray" id="lt4-zI-Iws"/>
+                        <outletCollection property="Line3" destination="G4n-cu-XGF" collectionClass="NSMutableArray" id="BTP-ha-9ae"/>
+                        <outletCollection property="Line3" destination="ZQG-OX-Wtr" collectionClass="NSMutableArray" id="vuZ-Co-jT5"/>
+                        <outletCollection property="Line3" destination="SFm-Qx-hYi" collectionClass="NSMutableArray" id="ty0-uD-QSH"/>
+                        <outletCollection property="Case" destination="hfG-qh-zT0" collectionClass="NSMutableArray" id="p8M-kl-3dQ"/>
+                        <outletCollection property="Case" destination="Wyp-AE-7P3" collectionClass="NSMutableArray" id="Unk-ec-ZNe"/>
+                        <outletCollection property="Case" destination="Uzy-zv-QHq" collectionClass="NSMutableArray" id="RK9-7v-s9W"/>
+                        <outletCollection property="Case" destination="EeB-uN-lhv" collectionClass="NSMutableArray" id="BNK-3S-4z7"/>
+                        <outletCollection property="Case" destination="3mz-em-ovt" collectionClass="NSMutableArray" id="Fsy-M5-CKO"/>
+                        <outletCollection property="Case" destination="aZ2-x9-tOq" collectionClass="NSMutableArray" id="ND1-mL-C4q"/>
+                        <outletCollection property="Case" destination="a2E-1Y-QXJ" collectionClass="NSMutableArray" id="y3m-uP-a9V"/>
+                        <outletCollection property="Case" destination="iwZ-jt-q5e" collectionClass="NSMutableArray" id="sTc-Re-OCW"/>
+                        <outletCollection property="Case" destination="iPw-PS-5qv" collectionClass="NSMutableArray" id="MQV-T2-iyM"/>
+                        <outletCollection property="Case" destination="Odb-XB-RXr" collectionClass="NSMutableArray" id="1zE-5t-23e"/>
+                        <outletCollection property="Case" destination="czy-xu-2zv" collectionClass="NSMutableArray" id="Bs1-0n-o4Y"/>
+                        <outletCollection property="Case" destination="rwU-Fl-4xS" collectionClass="NSMutableArray" id="Ed8-tN-waU"/>
+                        <outletCollection property="Case" destination="o2t-go-vq8" collectionClass="NSMutableArray" id="L1t-Ag-my5"/>
+                        <outletCollection property="Case" destination="G4n-cu-XGF" collectionClass="NSMutableArray" id="KUU-Nb-geF"/>
+                        <outletCollection property="Case" destination="ZQG-OX-Wtr" collectionClass="NSMutableArray" id="nsN-Er-4E6"/>
+                        <outletCollection property="Case" destination="SFm-Qx-hYi" collectionClass="NSMutableArray" id="XpX-IL-hih"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="eo9-PR-iaM" userLabel="RightSwipe">
+                    <connections>
+                        <action selector="RightSwipe:" destination="BYZ-38-t0r" id="c6e-Hs-WUN"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="Sh7-jt-vig" userLabel="LeftSwipe">
+                    <connections>
+                        <action selector="LeftSwipe:" destination="BYZ-38-t0r" id="tlI-bL-oNh"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="PwG-Ds-e2i" userLabel="DownSwipe">
+                    <connections>
+                        <action selector="DownSwipe:" destination="BYZ-38-t0r" id="Zri-Lb-r2j"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="oEy-oj-4bR" userLabel="UpSwipe">
+                    <connections>
+                        <action selector="UpSwipe:" destination="BYZ-38-t0r" id="OXx-DR-kkL"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="138" y="134"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
